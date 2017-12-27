@@ -20,14 +20,14 @@ contract BearCrowdSale is Pausable {
     uint public constant LOCK_TIME =  1 days;
 
     /// Exchange rates for first phase
-    uint public constant PRICE_RATE_FIRST = 20833;
+    uint public constant PRICE_RATE_FIRST = 10000000;
     /// Exchange rates for second phase
-    uint public constant PRICE_RATE_SECOND = 18518;
+    uint public constant PRICE_RATE_SECOND = 5000000;
     /// Exchange rates for last phase
-    uint public constant PRICE_RATE_LAST = 16667;
+    uint public constant PRICE_RATE_LAST = 2500000;
 
 
-    uint256 public minBuyLimit = 0.1 ether;
+    uint256 public minBuyLimit = 0.01 ether;
     uint256 public maxBuyLimit = 100 ether;
 
     uint public constant LOCK_STAKE = 50;            
